@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Presentation</title>
+    <style>
+      body {
+        background: black;
+        color: white;
+        font-family: sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+          color: white;
+      }
+
+      .slide {
+        display: flex;
+        flex-direction: column;
+        background: #222;
+        width: 85vw;
+        min-height: 98vh;
+        margin: auto;
+        border-bottom: 0.5em solid black
+      }
+
+      .title {
+        font-size: 4em;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .content {
+        font-size: 3em;
+      }
+
+      .reference-slide > .content {
+        display: flex;
+        flex: 1;
+      }
+
+      .content > img {
+        width: 100%;
+      }
+
+      .content > p, .content > ul, .content > ol {
+        padding: 2em;
+      }
+
+      .content > iframe {
+        width: 100%;
+        flex: 1;
+      }
+
+      .title-slide {
+        background: #333;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .title-slide .title {
+        font-size: 5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide title-slide">
+      <p class="title">Introduction</p>
+    </div>
+    <div class="slide">
+      <p class="title">Internet</p>
+      <div class="content">
+        <p>Network of networks</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="content">
+        <img src="https://farm4.staticflickr.com/3373/3485479724_95a17f39ab_o_d.png" alt="Internet">
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Core</p>
+      <div class="content">
+        <p>The internet protocol suite</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Known as...</p>
+      <div class="content">
+        <p>TCP/IP</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Key Figures</p>
+      <div class="content">
+        <p>DARPA, Vint Cerf, Bob Kahn</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">TCP/IP Layers</p>
+      <div class="content">
+        <ul>
+          <li>Application</li>
+          <li>Transport</li>
+          <li>Internet</li>
+          <li>Link</li>
+        </ol>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="content" style="background-color: white">
+        <img src="http://i.imgur.com/5bpw00a.png" alt="TCP/IP">
+      </div
+    </div>
+    <div class="slide">
+      <p class="title">Maintained</p>
+      <div class="content">
+        <p>Internet Engineering Task Force</p>
+      </div>
+    </div>
+    <div class="slide reference-slide">
+      <a href="https://tools.ietf.org/html/rfc1122" target="_blank">
+        https://tools.ietf.org/html/rfc1122
+      </a>
+      <div class="content" style="background-color: white">
+        <iframe src="https://tools.ietf.org/html/rfc1122"></iframe>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">WWW</p>
+      <div class="content">
+        <p>World Wide Web</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">WWW</p>
+      <div class="content">
+        <p>Interlinked web resources identified by URLs accessable via the Internet</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Key Figures</p>
+      <div class="content">
+        <p>CERN, Tim Berners-Lee</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Concepts</p>
+      <div class="content">
+        <ul>
+          <li>DNS (Domain Name System)</li>
+          <li>URL (Uniform Resource Locator)</li>
+          <li>HTTP (Hypertext Transfer Protocol)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Concepts</p>
+      <div class="content">
+        <ul>
+          <li>HTML (HyperText Markup Language)</li>
+          <li>CSS (Cascading Style Sheets)</li>
+          <li>JS (JavaScript)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Practice...</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.4/socket.io.min.js"></script>
+    <script>
+      $(function() {
+        var socket =
+          io('http://control.auca.xyz');
+
+        var slide =
+          1;
+        var slides =
+          $('.slide').length;
+
+        socket.emit('update', {
+          'slide' : 1,
+          'slides' : slides
+        });
+
+        function previous() {
+          slide =
+            Math.max(slide - 1, 1);
+
+          sync(slide);
+        }
+
+        function sync(slideToSwitch) {
+          slide =
+            Math.min(
+              Math.max(
+                slideToSwitch, 0
+              ),
+              slides
+            );
+
+          var slideElement =
+            $('.slide')[slide - 1];
+
+          if (slideElement) {
+            $('html,body').animate({
+              scrollTop: slideElement.offsetTop
+            }, 200);
+          }
+        }
+
+        function next() {
+          slide =
+            Math.min(slide + 1, slides);
+
+          sync(slide);
+        }
+
+        socket.on('previous', previous);
+        socket.on('sync', sync);
+        socket.on('next', next);
+      });
+    </script>
+  </body>
+</html>
