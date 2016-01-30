@@ -3,7 +3,8 @@ Practice #1
 
 ## Task #1: Tools
 
-Get an [SSH](https://en.wikipedia.org/wiki/Secure_Shell) client in order to be able to connect to an AUCA server.
+Get an [SSH](https://en.wikipedia.org/wiki/Secure_Shell) client in order to be
+able to connect to an AUCA server.
 
 You can get one from the following packages
 
@@ -13,7 +14,8 @@ You can get one from the following packages
 
 or you can select any other SSH client that you like.
 
-It is recommended to select a portable version of a selected program for use in AUCA labs.
+It is recommended to select a portable version of a selected program for use in
+AUCA labs.
 
 ## Task #2: Remote Server
 
@@ -25,7 +27,8 @@ Replace `<user name>` with your last name. Type all letters in lower case.
 
 ## Task #3: Practice Directory
 
-Use an `mkdir` command-line program to create a directory for the following practice class.
+Use an `mkdir` command-line program to create a directory for the following
+practice class.
 
     mkdir practice_1
 
@@ -33,7 +36,8 @@ Navigate into the newly created directory with an `cd` built-in command.
 
     cd practice_1
 
-You need to create a separate directory for each lab when your are working on a remote server.
+You need to create a separate directory for each lab when your are working on a
+remote server.
 
 ## Task #4: index.html
 
@@ -57,17 +61,19 @@ Add the following
 
 Save the file and exit by pressing `CTRL+X`, answering `y` and pressing `Enter`.
 
-Ensure that you have created a new file by listing content of the current directory.
+Ensure that you have created a new file by listing contents of the current
+directory.
 
     ls
-    
-Start a web server to send files in the current directory.
+
+Start a web server.
 
     python -m SimpleHTTPServer <your ID>
 
 Use your ID as a port number to avoid a fight over a server port.
 
-On your local machine, start a browser and try to open your page under the following URL
+On your local machine, start a browser and try to open your page under the
+following URL
 
     http://auca.xyz:<your ID>
 
@@ -75,22 +81,23 @@ You can stop the server by pressing `CTRL+C` on a remote machine.
 
 ## Task #5: Styling with CSS
 
-Make the page background black, and the text with a greeting white, large and centered.
+Change the background color of the page to black, and the color of the greeting
+to white. Make the text message bigger and center it on the page.
 
 Add the following after the closing `</title>` tag.
 
 ```html
-<style>
+  <style>
     body {
-        background-color: black;
+      background-color: black;
     }
-    
+
     p {
-        color: white;
-        font-size: 3em;
-        text-align: center;
+      color: white;
+      font-size: 3em;
+      text-align: center;
     }
-</style>
+  </style>
 ```
 
 * [background-color](https://developer.mozilla.org/en/docs/Web/CSS/background-color)
@@ -100,33 +107,31 @@ Add the following after the closing `</title>` tag.
 
 ## Task #6: Scripting with JavaScript
 
-Write another greeting message, but into a browser console.
+Write another greeting, but into a browser console.
 
 Add the following after the closing `</style>` tag.
 
 ```html
-<script>
+  <script>
     console.log('hello, world, again');
-</script>
+  </script>
 ```
 
 ## Task #7: Networking
 
-Find an IP address of the server URL `http://auca.xyz`.
+Find an IP address of the server for a URL `http://auca.xyz`.
 
 You can use one of the following
 
-* `nslookup` or `Resolve-DnsName`
-* `dig`
+* `nslookup` or `dig`
 
 Find a path from your machine to the remote AUCA server.
 
 You can use one of the following
 
-* `tracert` or `Test-NetConnection -TraceRoute`
-* `tracepath` or `traceroute`
+* `traceroute` or `tracepath`
 
-Analyze HTTP requests and responses in your browser's development tools.
+Analyze HTTP requests and responses in your browser's developer tools.
 
 Try to perform an HTTP request with `telnet` on a local or AUCA remote machine.
 
@@ -135,3 +140,11 @@ Try to perform an HTTP request with `telnet` on a local or AUCA remote machine.
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Documentation
+
+* [nslookup](https://www.freebsd.org/cgi/man.cgi?query=nslookup&manpath=Red+Hat+Linux%2fi386+7.3)
+* [dig](https://www.freebsd.org/cgi/man.cgi?query=dig&manpath=Red+Hat+Linux%2fi386+7.3)
+* [traceroute](https://www.freebsd.org/cgi/man.cgi?query=traceroute&manpath=Red+Hat+Linux%2fi386+7.3)
+* [tracepath](https://www.freebsd.org/cgi/man.cgi?query=tracepath&manpath=Red+Hat+Linux%2fi386+7.3)
+* [telnet](https://www.freebsd.org/cgi/man.cgi?query=telnet&manpath=Red+Hat+Linux%2fi386+7.3)
