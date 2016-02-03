@@ -117,34 +117,38 @@ Add the following after the closing `</style>` tag.
   </script>
 ```
 
-## Task #7: Networking
+## Browsers
 
-Find an IP address of the server for a URL `http://auca.xyz`.
+* [Google Chrome](https://www.google.com/chrome/browser/desktop)
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
+* [Apple Safari](http://www.apple.com/safari)
+* [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
 
-You can use one of the following
+## Browsers' Developer Tools
 
-* `nslookup` or `dig`
+* [Chrome DevTools](https://developer.chrome.com/devtools)
+* [Firefox Developer Tools](https://developer.mozilla.org/en/docs/Tools)
+* [Safari Web Development Tools](https://developer.apple.com/safari/tools)
+* [Microsoft Edge Developer Tools](https://dev.windows.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/)
 
-Find a path from your machine to the remote AUCA server.
+## Code Editors
 
-You can use one of the following
+* [Notepad++](https://notepad-plus-plus.org)
+* [Atom](https://atom.io)
+* [Visual Studio Code](https://code.visualstudio.com)
+* [Sublime](https://www.sublimetext.com)
 
-* `traceroute` or `tracepath`
+### Here Be Dragons
 
-Analyze HTTP requests and responses in your browser's developer tools.
+* [Vim](http://www.vim.org)
+* [GNU Emacs](https://www.gnu.org/software/emacs)
 
-Try to perform an HTTP request with `telnet` on a local or AUCA remote machine.
+## Other Tools
+
+* [WinSCP](https://winscp.net/eng/index.php)
 
 ## Additional Information
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-## Documentation
-
-* [nslookup](https://www.freebsd.org/cgi/man.cgi?query=nslookup&manpath=Red+Hat+Linux%2fi386+7.3)
-* [dig](https://www.freebsd.org/cgi/man.cgi?query=dig&manpath=Red+Hat+Linux%2fi386+7.3)
-* [traceroute](https://www.freebsd.org/cgi/man.cgi?query=traceroute&manpath=Red+Hat+Linux%2fi386+7.3)
-* [tracepath](https://www.freebsd.org/cgi/man.cgi?query=tracepath&manpath=Red+Hat+Linux%2fi386+7.3)
-* [telnet](https://www.freebsd.org/cgi/man.cgi?query=telnet&manpath=Red+Hat+Linux%2fi386+7.3)
