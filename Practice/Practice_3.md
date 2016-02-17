@@ -54,7 +54,7 @@ Use the following elements to provide and structure information about the syntax
 * [dd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd)
 * [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
 * [pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
-* [code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+* [code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
 * [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 * [table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 * [tr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
