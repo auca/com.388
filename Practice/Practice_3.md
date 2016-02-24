@@ -26,6 +26,7 @@ Use the following HTML elements to structure information about the Markdown synt
 * Provide a document title.
 * Use an HTML comment at least once.
 * Use any HTML entity at least once.
+* Group logical parts of your document (navigation, article, header, sections, footer...)
 
 ## Documentation
 
@@ -60,3 +61,11 @@ Use the following HTML elements to structure information about the Markdown synt
 * [tr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
 * [th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
 * [td](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
+* [div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+* [span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
+* [main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+* [nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+* [section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+* [article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+* [header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+* [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
