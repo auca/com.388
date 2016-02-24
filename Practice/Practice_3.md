@@ -5,7 +5,7 @@ Practice #3
 
 Create a page `markdown-help.html` with information about the [Markdown](https://daringfireball.net/projects/markdown/) language in HTML.
 
-Use the following elements to provide and structure information about the syntax with examples.
+Use the following HTML elements to structure information about the Markdown syntax.
 
 * Headings and subheadings
 * Paragraphs
