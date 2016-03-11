@@ -52,3 +52,7 @@ In your work you need to use the following at least once
 * [CSS, Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
 * [CSS, Percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage)
 * [CSS, Font Face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+
+## Other Resources
+
+* [CSS3 Patterns](http://lea.verou.me/css3patterns)
