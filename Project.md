@@ -15,3 +15,4 @@ The following services are required to run the *auca-judge* system.
 
 * [auca-judge-agent](https://github.com/toksaitov/auca-judge-agent)
 * [auca-judge-queue](https://github.com/toksaitov/auca-judge-queue)
+* [auca-judge-queue](https://github.com/toksaitov/auca-judge-images)
