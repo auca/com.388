@@ -3,6 +3,8 @@ Cource Project
 
 ## AUCA Judge System
 
+![Architecture](http://i.imgur.com/JLtDjC5.png)
+
 Add database support to *auca-judge* system. For specific tasks refer to comments in 
 `auca-judge-back.js` and `auca-judge-front.js` in the following projects.
 
