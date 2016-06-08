@@ -1,4 +1,4 @@
-Cource Project
+Course Project
 ==============
 
 ## AUCA Judge System
@@ -31,3 +31,9 @@ to prepare the execution environment.
 * Install Git with `sudo apt-get install git`
 * Clone *auca-judge* projects with Git `git clone <repository URL from GitHub>` to the home directory
 * Follow Usage instructions for each *auca-judge* service
+
+### Updates
+
+All solutions were received. All repositories were updated. All services have received database support and were containerized.
+
+To take a look on the current iteration of the system visit the umbrella [auca-judge](https://github.com/toksaitov/auca-judge) project.
