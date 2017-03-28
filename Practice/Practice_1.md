@@ -1,10 +1,12 @@
 Practice #1
 ===========
 
+![Example](http://i.imgur.com/s0bswl0.png)
+
 ## Task #1: Tools
 
 Get an [SSH](https://en.wikipedia.org/wiki/Secure_Shell) client in order to be
-able to connect to an AUCA server.
+able to connect to the AUCA server.
 
 You can get one from the following packages
 
@@ -14,30 +16,30 @@ You can get one from the following packages
 
 or you can select any other SSH client that you like.
 
-It is recommended to select a portable version of a selected program for use in
-AUCA labs.
+For AUCA labs it is recommended to select a portable version of a selected
+package.
 
 ## Task #2: Remote Server
 
-Login to a remote server through the SSH protocol at `auca.xyz:2222`
+Login to the remote server at `auca.space` through the SSH protocol.
 
-    ssh -p 2222 <user name>@auca.xyz
+    ssh <login>@auca.space
 
-Replace `<user name>` with your last name. Type all letters in lower case.
+Replace `<login>` with your last name, followed by the underscore character,
+followed by the first letter of your first name in lowercase.
 
-## Task #3: Practice Directory
+## Task #3: Greeter
 
 Use an `mkdir` command-line program to create a directory for the following
 practice class.
 
-    mkdir practice_1
+    mkdir greeter
 
-Navigate into the newly created directory with an `cd` built-in command.
+Navigate into the newly created directory with the `cd` built-in command.
 
-    cd practice_1
+    cd greeter
 
-You need to create a separate directory for each lab when your are working on a
-remote server.
+You need to create a separate directory for each lab.
 
 ## Task #4: index.html
 
@@ -45,77 +47,43 @@ Create an empty file of you new web page with a command-line editor `nano`.
 
     nano index.html
 
-Add the following
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>hello</title>
-  </head>
-  <body>
-    <p>hello, world</p>
-  </body>
-</html>
-```
+Type the HTML code of the page to show a greeting, some image, and a link to
+some other website.
 
 Save the file and exit by pressing `CTRL+X`, answering `y` and pressing `Enter`.
 
-Ensure that you have created a new file by listing contents of the current
+Ensure that you have created a new file by listing the contents of the current
 directory.
 
     ls
+
+You can get an image to test you first web page by doing an image search in your
+favorite search engine. Ensure to only use images labeled for noncommercial
+reuse for this project. Get the URL to the image from your browser and put it
+side by side with your project by using `wget`.
+
+    wget <URL>
+
+You can also cleanup the name by changing it with the `mv` command.
+
+    mv <old name> <new name>
+
+Ensure that the `img` tag points to the file with the same name in your HTML
+document.
 
 Start a web server.
 
     python -m SimpleHTTPServer <your ID>
 
-Use your ID as a port number to avoid a fight over a server port.
+Use your ID as a port number to avoid a fight over a server port with some other
+student.
 
 On your local machine, start a browser and try to open your page under the
 following URL
 
-    http://auca.xyz:<your ID>
+    http://auca.space:<your ID>
 
 You can stop the server by pressing `CTRL+C` on a remote machine.
-
-## Task #5: Styling with CSS
-
-Change the background color of the page to black, and the color of the greeting
-to white. Make the text message bigger and center it on the page.
-
-Add the following after the closing `</title>` tag.
-
-```html
-  <style>
-    body {
-      background-color: black;
-    }
-
-    p {
-      color: white;
-      font-size: 3em;
-      text-align: center;
-    }
-  </style>
-```
-
-* [background-color](https://developer.mozilla.org/en/docs/Web/CSS/background-color)
-* [color](https://developer.mozilla.org/en/docs/Web/CSS/color)
-* [font-size](https://developer.mozilla.org/en/docs/Web/CSS/font-size)
-* [text-align](https://developer.mozilla.org/en/docs/Web/CSS/text-align)
-
-## Task #6: Scripting with JavaScript
-
-Write another greeting, but into a browser console.
-
-Add the following after the closing `</style>` tag.
-
-```html
-  <script>
-    console.log('hello, world, again');
-  </script>
-```
 
 ## Browsers
 
@@ -124,7 +92,7 @@ Add the following after the closing `</style>` tag.
 * [Apple Safari](http://www.apple.com/safari)
 * [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
 
-## Browsers' Developer Tools
+## Developer Tools
 
 * [Chrome DevTools](https://developer.chrome.com/devtools)
 * [Firefox Developer Tools](https://developer.mozilla.org/en/docs/Tools)
@@ -143,12 +111,23 @@ Add the following after the closing `</style>` tag.
 * [Vim](http://www.vim.org)
 * [GNU Emacs](https://www.gnu.org/software/emacs)
 
-## Other Tools
+## Other Helpfull Tools
 
 * [WinSCP](https://winscp.net/eng/index.php)
 
-## Additional Information
+## HTML
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [HTML Entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
+* [html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
+* [head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
+* [meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+* [title](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+* [body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+* [br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+* [p](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+* [em](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+* [strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
+* [a](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+* [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+

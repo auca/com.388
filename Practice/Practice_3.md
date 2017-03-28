@@ -1,71 +1,57 @@
 Practice #3
 ===========
 
-## Task #1: Introduction to HTML
+![Example](http://i.imgur.com/ykJX2Ng.png)
+![Example](http://i.imgur.com/XCAFlQk.png)
+![Example](http://i.imgur.com/LLDFzTQ.png)
 
-Create a page `markdown-help.html` with information about the [Markdown](https://daringfireball.net/projects/markdown/) language in HTML.
+## Task #1: Advanced Greeter
 
-Use the following HTML elements to structure information about the Markdown syntax.
+Create a web application to show a simple greeting with an HTML form with one
+input field to enter the user's name. After entering the name and pressing the
+`Return` key, a request is made to the Node.js server application. The server
+application should generate an HTML document with the full greeting including
+the name of the user and send it back. The result should contain the same input
+field for a name to allow to submit another request to the server.
 
-* Headings and subheadings
-* Paragraphs
-* Line breaks and horizontal lines
-* Bold and italic text
-* Links
-* Ordered and unordered lists
-* [Definition lists](http://kramdown.gettalong.org/syntax.html#definition-lists)
-* Blockquote, pre-formatted text and code
-* [Images](https://github.com/dcurtis/markdown-mark)
-* [Tables](http://kramdown.gettalong.org/syntax.html#tables)
+Use Node.js to create the server back-end that listens to HTTP request with the
+name of the user and generates the resulting HTML page from a template with the
+greeting message.
 
-### Additional Requirements
+Use Git to store your project's history. Consider using a Git repository
+hosting services such as [GitHub](https://github.com), [GitLab](https://gitlab.com),
+or [BitBucket](https://bitbucket.com) to store a copy of your project and its
+history.
 
-* Specify a proper HTML5 document type.
-* Don't forget to specify the language of the document.
-* Provide meta information such as the character set used, document author, description, and keywords.
-* Provide a document title.
-* Use an HTML comment at least once.
-* Use any HTML entity at least once.
-* Group logical parts of your document (navigation, article, header, sections, footer...)
+## Node.js
 
-## Documentation
+* [Node.js](https://nodejs.org/en)
+* [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction)
+* [Blocking vs Non-Blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking)
+* [File System](https://nodejs.org/api/fs.html)
+* [HTTP](https://nodejs.org/api/http.html)
+* [URL](https://nodejs.org/api/url.html)
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
-* [Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+## HTTP
 
-## Tags
+* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+## HTML
 
 * [html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
 * [head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
 * [meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 * [title](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 * [body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
-* [h\[1-6\]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 * [p](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-* [br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
-* [hr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
-* [strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
-* [em](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 * [a](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-* [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-* [ul](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-* [li](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-* [dl](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
-* [dt](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
-* [dd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd)
-* [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
-* [pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
-* [code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
-* [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
-* [table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
-* [tr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
-* [th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
-* [td](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
-* [div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
-* [span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
-* [main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
-* [nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
-* [section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
-* [article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
-* [header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
-* [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+* [form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+* [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+* [URL encoding](https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding)
+
+## Git
+
+* [Git](https://git-scm.com)
+* [Getting Started](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+* [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+
