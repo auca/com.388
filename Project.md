@@ -1,39 +1,30 @@
 Course Project
 ==============
 
-## AUCA Judge System
+## Blog
 
-![Architecture](http://i.imgur.com/JLtDjC5.png)
+In this project we will create a simple blog application in several steps.
 
-Add database support to *auca-judge* system. For specific tasks refer to comments in 
-`auca-judge-back.js` and `auca-judge-front.js` in the following projects.
+Throughout several iterations during our lab classes we were building a blog application with _Node.js_, _Express_, _Sequelize_, and _MySQL_. The sources of our final application can be found [here](https://github.com/toksaitov/blog). For your final exam you have to redo every part on your own to be able to defend it. For grades _A-_ or _A_, you also have to complete a take-home Assignment in one week.
 
-* [auca-judge-back](https://github.com/toksaitov/auca-judge-back)
-* [auca-judge-front](https://github.com/toksaitov/auca-judge-front)
+### Lab Tasks
 
-### Supporting Services
+1. A user can create, read, update, and delete (CRUD) the blog entries. The entries can be stored in memory for now.
 
-The following services are required to run the *auca-judge* system.
+2. Add different types of users to the system. An administrator can do basic CRUD operations on blog entries. Other users can only read them.
 
-* [auca-judge-agent](https://github.com/toksaitov/auca-judge-agent)
-* [auca-judge-queue](https://github.com/toksaitov/auca-judge-queue)
-* [auca-judge-images](https://github.com/toksaitov/auca-judge-images)
+3. Add commenting support to the blog. All authenticated users can post comments under blog entries.
 
-### Setup
+4. We have tried using raw SQL queries in our _guestbook_ application. Now we will try to use an ORM (Object-Relational Mapping) system _Sequelize_ to move our in-memory data storage to the MySQL database.
 
-Consider using a virtual [machine](https://www.virtualbox.org/wiki/Downloads) with Ubuntu Linux 14.04 or 16.04 installed
-to prepare the execution environment.
+### Take-home Assignment
 
-* Install Docker: [instructions](https://docs.docker.com/linux/step_one)
-* Install Node.js and npm: [instructions](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-* Install MongoDB: [instructions](https://docs.mongodb.com/v3.0/tutorial/install-mongodb-on-ubuntu)
-* You can install `redis-server` from Ubuntu repositories through `sudo apt-get install redis-server`
-* Install Git with `sudo apt-get install git`
-* Clone *auca-judge* projects with Git `git clone <repository URL from GitHub>` to the home directory
-* Follow Usage instructions for each *auca-judge* service
+To defend your project for a grade of _A-_ or _A_, you need to add one major feature or make one major improvement to the system. This could be...
 
-### Updates
-
-All solutions were received. All repositories were updated. All services have received database support and were containerized.
-
-To take a look on the current iteration of the system visit the umbrella [auca-judge](https://github.com/toksaitov/auca-judge) project.
+* Improve navigation (add a navigation bar with links), add some general information pages such as an about page...
+* Allow users to manage their comments and administrators to manage all comments (update, delete)
+* Add a registration form for new users
+* Add markdown support for blog posts
+* Add proper styling for all pages
+* Add client-side JS code to check for errors or to dynamically update content with [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming))
+* Add [Docker](https://www.docker.com) or [Vagrant](https://www.vagrantup.com) support
