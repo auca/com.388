@@ -5,12 +5,38 @@ const util = require('util');
 const qs = require('querystring');
 const mysql = require('mysql');
 
+const dbName = process.env['DB_NAME'];
+if (!dbName) {
+    throw 'Please, specify the database name';
+}
+
+const dbUser = process.env['DB_USER'];
+if (!dbUser) {
+    throw 'Please, specify the database user name';
+}
+
+let dbPassword = process.env['DB_PASSWORD'];
+if (!dbPassword) {
+    dbPassword = '';
+}
+
+let dbHost = process.env['DB_LOCATION'];
+if (!dbHost) {
+    dbHost = '127.0.0.1';
+}
+
+let dbPort = process.env['DB_Port'];
+if (!dbPort) {
+    dbPort = '3306';
+}
+
 var pool = mysql.createPool({
     'connectionLimit' : 10,
-    'host'            : '127.0.0.1',
-    'user'            : 'toksaitov_d',
-    'password'        : 'AUCA_SFW_2929',
-    'database'        : 'toksaitov_d_db'
+    'host'            : dbHost,
+    'port'            : dbPort,
+    'user'            : dbUser,
+    'password'        : dbPassword,
+    'database'        : dbName
 });
 
 const port =
