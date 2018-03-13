@@ -5,6 +5,8 @@ const util = require('util');
 const qs = require('querystring');
 const mysql = require('mysql');
 
+require('dotenv').config();
+
 const dbName = process.env['DB_NAME'];
 if (!dbName) {
     throw 'Please, specify the database name';
