@@ -41,6 +41,6 @@ feature or make one major improvement to the system. This could be...
 * Add proper styling for all pages
 * Add client-side JS code to check for errors or to dynamically update content
   with [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming))
-* Add [Docker](https://www.docker.com) or [Vagrant](https://www.vagrantup.com)
+* Add [Kubernetes](https://kubernetes.io), [Docker](https://www.docker.com) or [Vagrant](https://www.vagrantup.com)
   support
 
