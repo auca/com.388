@@ -12,17 +12,12 @@ books
 For announcements, student questions and student answers to get the
 participation grade
 
-* <https://piazza.com/auca.kg/spring2018/com388>
+* <https://piazza.com/auca.kg/fall2019/com388/home>
 
-## Class Chat
+## Recordings
 
-For general discussions between students and the course instructor
+View previous class recordings
 
-* <https://auca-sfw.slack.com/messages/com-388-spring-2018>
+### Lectures
 
-## Screencast
-
-View the screen of the instructor's machine
-
-* <https://hangouts.google.com/hangouts/_/auca.kg/com-388>
-
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dQayzYuHv9k-qnLPKRizxx>
