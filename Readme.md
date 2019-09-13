@@ -24,7 +24,7 @@ View previous class recordings
 
 ### Labs
 
-* TBD
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dxc8oEN7kKhl3svE9iOCXJ>
 
 ## Registration
 
