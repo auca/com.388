@@ -22,6 +22,10 @@ View previous class recordings
 
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dQayzYuHv9k-qnLPKRizxx>
 
+### Labs
+
+* TBD
+
 ## Registration
 
 * <https://docs.google.com/spreadsheets/d/1H1JcJ4u6kv143d7K06dQ9h7fBj4T_lTNPxk07ouCuII/edit?usp=sharing>
