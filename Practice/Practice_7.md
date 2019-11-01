@@ -23,7 +23,7 @@ In your work you need to use the following at least once
 * _#myid_: an element with ID equal to "myid"
 * _E F_: an F element descendant of an E element
 * _E > F_: an F element child of an E element
-* _E:active_ and _E:hover_ and _E:focus_: an E element during certain user actions
+* _E:active_ and _E:hover_ and _E:focus_ and _E:visited_ and _E:link_: an E element during certain user actions
 * _E[foo]_: an E element with a "foo" attribute
 * _E[foo="bar"]_: an E element whose "foo" attribute value is exactly equal to "bar"
 * _selector_, _selector_, ...: a group of selectors
