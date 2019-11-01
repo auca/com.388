@@ -16,11 +16,11 @@ In your work you need to use the following at least once
 
 <https://www.w3.org/TR/selectors>
 
+* *: all elements
 * _E_: an element of type E
 * _.warning_: an element whose class is "warning"
 * _E.warning_: an E element whose class is "warning"
 * _#myid_: an element with ID equal to "myid"
-* _E#myid_: an E element with ID equal to "myid"
 * _E F_: an F element descendant of an E element
 * _E > F_: an F element child of an E element
 * _E:active_ and _E:hover_ and _E:focus_: an E element during certain user actions
