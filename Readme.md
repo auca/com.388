@@ -29,3 +29,11 @@ View previous class recordings
 ## Registration
 
 * <https://docs.google.com/spreadsheets/d/1H1JcJ4u6kv143d7K06dQ9h7fBj4T_lTNPxk07ouCuII/edit?usp=sharing>
+
+## Practice Midterm Signup
+
+* <https://docs.google.com/spreadsheets/d/1WPjTaBWBn93anewp4sBbN1muEeis7LnLjPDETbapRjQ/edit?usp=sharing>
+
+## Practice Midterm Task List
+
+* <https://docs.google.com/spreadsheets/d/1HgMPEF9LDv01kBGxVId_aW0g9RuCAqujQoR2-k1beKE/edit?usp=sharing>
