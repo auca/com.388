@@ -9,7 +9,7 @@ Throughout several iterations during our lab classes we were building a blog
 application with _Node.js_, _Express_, _Sequelize_, and _MySQL_. The sources of
 our final application can be found [here](https://github.com/toksaitov/blog).
 For your final exam you have to redo every part on your own to be able to defend
-it. For grades _A-_ or _A_, you also have to complete a take-home Assignment in
+it. For grades _B_ or _A_, you also have to complete a take-home Assignment in
 one week.
 
 ### Lab Tasks
@@ -29,7 +29,7 @@ one week.
 
 ### Take-home Assignment
 
-To defend your project for a grade of _A-_ or _A_, you need to add one major
+To defend your project for a grade of _B_ or _A_, you need to add one major
 feature or make one major improvement to the system. This could be...
 
 * Improve navigation (add a navigation bar with links), add some general
