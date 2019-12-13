@@ -32,7 +32,7 @@ it.
 * Improve navigation (add a navigation bar with links), add some general
   information pages such as an about page... (1%)
 * Add markdown support for blog posts (1%)
-* Add proper styling for all pages (2%)
+* Add proper styling for all pages (3%)
 * Allow users to manage their comments and administrators to manage all comments
   (update, delete) (3%)
 * Add a registration form for new users (4%)
