@@ -32,8 +32,8 @@ View previous class recordings
 
 ## Practice Midterm Signup
 
-* <https://docs.google.com/spreadsheets/d/1WPjTaBWBn93anewp4sBbN1muEeis7LnLjPDETbapRjQ/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/1WueMWA1palLMTIsE_9uU2pc1MuRh48J-UX-kgS5wJPQ/edit?usp=sharing>
 
 ## Practice Midterm Task List
 
-* <https://docs.google.com/spreadsheets/d/1HgMPEF9LDv01kBGxVId_aW0g9RuCAqujQoR2-k1beKE/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/17R8wwyTY9jBIpVGKYdfBDuySXIA6dgRlLb9Mrm6R_kI/edit?usp=sharing>
