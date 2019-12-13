@@ -30,10 +30,10 @@ View previous class recordings
 
 * <https://docs.google.com/spreadsheets/d/1H1JcJ4u6kv143d7K06dQ9h7fBj4T_lTNPxk07ouCuII/edit?usp=sharing>
 
-## Practice Midterm Signup
+## Practice Final Signup
 
 * <https://docs.google.com/spreadsheets/d/1WueMWA1palLMTIsE_9uU2pc1MuRh48J-UX-kgS5wJPQ/edit?usp=sharing>
 
-## Practice Midterm Task List
+## Practice Final Task List
 
 * <https://docs.google.com/spreadsheets/d/17R8wwyTY9jBIpVGKYdfBDuySXIA6dgRlLb9Mrm6R_kI/edit?usp=sharing>
